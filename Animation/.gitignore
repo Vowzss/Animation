@@ -1,0 +1,10 @@
+.vs
+.vscode
+.idea
+
+lfs/
+hooks/
+
+*Debug/*
+*Release/*
+*x64/*

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Includes\Utils">
+      <UniqueIdentifier>{34087df5-8f11-45d5-bd4c-3fa4913d71ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Maths">
+      <UniqueIdentifier>{5f4350c9-9662-4c00-8175-5787689f8e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Maths">
+      <UniqueIdentifier>{e6caa467-65f7-412c-8980-189e42564d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Core">
+      <UniqueIdentifier>{69cd3563-b78f-445a-a173-0b02b07e112c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Animation">
+      <UniqueIdentifier>{df2ca5ad-551f-44ef-9b58-7ffbd4628f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Core">
+      <UniqueIdentifier>{455240ba-6992-4abb-8d5e-8cb42e5c28e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Animation">
+      <UniqueIdentifier>{6328f82c-5699-4c80-9a68-2ae4d2080fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Externals">
+      <UniqueIdentifier>{6aadecc7-552b-4e84-b93f-3c233215d484}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\Utilities\Includer.h">
+      <Filter>Includes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\AngleAxis.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Arithmetic.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Color.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Matrix.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Maths.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Quaternion.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Transform.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Vector2.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Vector3.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Vector4.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Vertex.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Engine.h">
+      <Filter>Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Simulation.h">
+      <Filter>Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Animation\Bone.h">
+      <Filter>Includes\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Animation\Skeleton.h">
+      <Filter>Includes\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Animation\Animator.h">
+      <Filter>Includes\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\MathConstants.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Animation\Animation.h">
+      <Filter>Includes\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Animation\AnimTransition.h">
+      <Filter>Includes\Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\AngleAxis.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Arithmetic.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Color.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Quaternion.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Transform.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Vector2.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Vector3.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Vector4.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Simulation.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Animation\Bone.cpp">
+      <Filter>Sources\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Animation\Skeleton.cpp">
+      <Filter>Sources\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Sources\Externals</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\imgui\imgui_impl_sdl.cpp">
+      <Filter>Sources\Externals</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\imgui\imgui_widgets.cpp">
+      <Filter>Sources\Externals</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\imgui\imgui.cpp">
+      <Filter>Sources\Externals</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\imgui\imgui_draw.cpp">
+      <Filter>Sources\Externals</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Animation\Animator.cpp">
+      <Filter>Sources\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Animation\AnimTransition.cpp">
+      <Filter>Sources\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Animation\Animation.cpp">
+      <Filter>Sources\Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Includes\Maths\Matrix.inl">
+      <Filter>Includes\Maths</Filter>
+    </None>
+    <None Include="Includes\Maths\Quaternion.inl">
+      <Filter>Includes\Maths</Filter>
+    </None>
+    <None Include="Includes\Maths\Vector2.inl">
+      <Filter>Includes\Maths</Filter>
+    </None>
+    <None Include="Includes\Maths\Vector3.inl">
+      <Filter>Includes\Maths</Filter>
+    </None>
+    <None Include="Includes\Maths\Vector4.inl">
+      <Filter>Includes\Maths</Filter>
+    </None>
+  </ItemGroup>
+</Project>
