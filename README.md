@@ -31,5 +31,5 @@ Date last version : 02/01/2023
 
 ## Build and run
 ```
-Visual Studio > Debug x86 > Local Windows Debugger
+Visual Studio > Debug x86 (only) > Local Windows Debugger
 ```

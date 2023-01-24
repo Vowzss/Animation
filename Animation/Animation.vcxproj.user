@@ -14,5 +14,6 @@
     <LocalDebuggerWorkingDirectory>$(SolutionDir)Externals</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <LocalDebuggerEnvironment>$(SolutionDir)Externals\Libs;</LocalDebuggerEnvironment>
   </PropertyGroup>
 </Project>
