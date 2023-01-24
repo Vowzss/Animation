@@ -5,6 +5,7 @@
 lfs/
 hooks/
 
-*Debug/*
-*Release/*
-*x64/*
+**/Debug/*
+**/Release/*
+**/x64/*
+**.exe
